@@ -1,0 +1,31 @@
+service-request-management/
+│
+├── app/
+│   │
+│   ├── main.py
+│   │
+│   ├── core/
+│   │   ├── config.py
+│   │   ├── supabase_client.py
+│   │   └── security.py
+│   │
+│   ├── schemas/
+│   │   ├── auth.py
+│   │   └── service_request.py
+│   │
+│   ├── routers/
+│   │   ├── auth.py
+│   │   ├── service_requests.py
+│   │   └── dashboard.py
+│   │
+│   ├── services/
+│   │   ├── auth_service.py
+│   │   └── service_request_service.py
+│   │
+│   └── utils/
+│       └── enums.py
+│
+├── .env
+├── requirements.txt
+├── .gitignore
+└── README.md
